@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700");
+.play {
+    background: url('video/video.mp4');
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background:rgba(51, 51, 51, 0.56); 
+    z-index: -10;
+}
+  
+.bgvideo {
+    position: relative;
+    width: 100%;
+    z-index: -9999;
+}
+.play_block{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top:0;
+    margin-top: 5.5em;
+    margin-left: 3.5em;
+    width: 50%;
+    z-index: 0;
+}
+.play_block h2{
+    color: #f2f2f2;
+    font-family: "Karla", sans-serif;
+}
+
+/* кнопка  */
+a {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #f0a77c 0%, #e24000 51%, #efc59e 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    transition: .5s;
+  }
+  a:hover {background-position: right center;}
